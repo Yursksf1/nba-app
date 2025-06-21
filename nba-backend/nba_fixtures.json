@@ -1,0 +1,111 @@
+[
+    {
+        "model": "nba.team",
+        "pk": 1,
+        "fields": {
+            "name": "Los Angeles Lakers"
+        }
+    },
+    {
+        "model": "nba.team",
+        "pk": 2,
+        "fields": {
+            "name": "Golden State Warriors"
+        }
+    },
+    {
+        "model": "nba.team",
+        "pk": 3,
+        "fields": {
+            "name": "Boston Celtics"
+        }
+    },
+    {
+        "model": "nba.player",
+        "pk": 1,
+        "fields": {
+            "name": "LeBron James",
+            "birth_date": "1984-12-30",
+            "height": 2.06,
+            "team": 1
+        }
+    },
+    {
+        "model": "nba.player",
+        "pk": 2,
+        "fields": {
+            "name": "Stephen Curry",
+            "birth_date": "1988-03-14",
+            "height": 1.88,
+            "team": 2
+        }
+    },
+    {
+        "model": "nba.player",
+        "pk": 3,
+        "fields": {
+            "name": "Jayson Tatum",
+            "birth_date": "1998-03-03",
+            "height": 2.03,
+            "team": 3
+        }
+    },
+    {
+        "model": "nba.game",
+        "pk": 1,
+        "fields": {
+            "date": "2024-12-25",
+            "home_team": 1,
+            "away_team": 2,
+            "home_score": 112,
+            "away_score": 108
+        }
+    },
+    {
+        "model": "nba.game",
+        "pk": 2,
+        "fields": {
+            "date": "2025-01-15",
+            "home_team": 3,
+            "away_team": 1,
+            "home_score": 101,
+            "away_score": 110
+        }
+    },
+    {
+        "model": "nba.playerstat",
+        "pk": 1,
+        "fields": {
+            "player": 1,
+            "game": 1,
+            "points": 28
+        }
+    },
+    {
+        "model": "nba.playerstat",
+        "pk": 2,
+        "fields": {
+            "player": 2,
+            "game": 1,
+            "points": 30
+        }
+    },
+    {
+        "model": "nba.playerstat",
+        "pk": 3,
+        "fields": {
+            "player": 1,
+            "game": 2,
+            "points": 34
+        }
+    },
+    {
+        "model": "nba.playerstat",
+        "pk": 4,
+        "fields": {
+            "player": 3,
+            "game": 2,
+            "points": 26
+        }
+    }
+]
